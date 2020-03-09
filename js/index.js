@@ -78,6 +78,6 @@ $(document).ready(function () {
 	showArray(unsorted, 'unsortedArray');
 
 	// arrange the pancakes and display the result
-	let sorted = arrangePancakes(unsorted);
+	let sorted = arrangePancakes(unsorted);;
 	showArray(sorted, 'sortedArray');
 });
